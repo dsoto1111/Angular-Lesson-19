@@ -1,0 +1,2 @@
+<div #element *ngFor="let person of people; index as i; trackBy: trackFunction">{{i + 1}} - {{person.name}}, {{person.age}}, {{person.archetype}}</div>
+<button (click)="changeName()">Change Name</button><button (click)="changeAge()">Change Age</button>
